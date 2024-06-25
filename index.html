@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="UTF-8" />
+    <title>Barra de Navegación</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      /* Reset de estilos básico */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #05877d;
+        font-family: Arial, sans-serif;
+      }
+      .button-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+      }
+      .button {
+        padding: 15px 30px;
+        font-size: 16px;
+        color: white;
+        background: linear-gradient(90deg, #049f2a, #38966c);
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        box-shadow: 0 4px 15px rgba(255, 0, 102, 0);
+        transition: box-shadow 0.3s ease, transform 0.3s ease;
+      }
+
+      /* Estilos de la barra de navegación */
+      header {
+        background-color: #b3fd7e; /* Color de fondo de la barra de navegación */
+        padding: 10px 0; /* Espaciado interior de la barra de navegación */
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>ENLACES DE INTERES</h1>
+    </header>
+
+    <div class="button-container">
+      <a class="button" href="https://www.imeicolombia.com.co/">IMEI</a>
+    </div>
+
+    <div class="button-container">
+      <a
+        class="button"
+        href="https://antecedentes.policia.gov.co:7005/WebJudicial/"
+        >ANTECEDENTES</a
+      >
+    </div>
+
+    <div class="button-container">
+      <a
+        class="button"
+        href="https://consultaprocesos.ramajudicial.gov.co/Procesos/NombreRazonSocial"
+        >RAMA JUDICIAL 1</a
+      >
+    </div>
+    <div class="button-container">
+      <a
+        class="button"
+        href="https://procesos.ramajudicial.gov.co/jepms/medellinjepms/conectar.asp"
+        >RAMA JUDICIAL
+      </a>
+    </div>
+    <div class="button-container">
+      <a
+        class="button"
+        href="https://www.inpec.gov.co/registro-de-la-poblacion-privada-de-la-libertad"
+        >IMPEC</a
+      >
+    </div>
+    <div class="button-container">
+      <a class="button" href="https://sistemaspnp.com/cedula//"
+        >CEDULA VENZUELA</a
+      >
+    </div>
+    <div class="button-container">
+      <a
+        class="button"
+        href="https://srvcnpc.policia.gov.co/PSC/frm_cnp_consulta.aspx"
+        >RNMC</a
+      >
+    </div>
+  </body>
+</html>
